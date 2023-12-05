@@ -4,7 +4,7 @@ import UserMenu from "../../components/layout/UserMenu";
 import { useAuth } from "../../context/auth";
 import axios from "axios";
 import toast from "react-hot-toast";
-import { set } from "mongoose";
+
 const Profile = () => {
   const [auth, setAuth] = useAuth();
   //For contect Auth
