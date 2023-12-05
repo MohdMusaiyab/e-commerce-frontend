@@ -1,0 +1,18 @@
+.list-group-item-custom {
+  margin-bottom: 10px; /* Adjust the margin as needed */
+  border: 1px solid #ccc; /* Add a subtle border */
+  border-radius: 8px; /* Round the corners */
+  background-color: #f8f9fa; /* Light background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  list-style: none;
+
+  /* Hover effect */
+  &:hover {
+    background-color: #e2e6ea; /* Change background color on hover */
+  }
+
+  font-size: 16px;
+  color: #495057;
+  padding: 12px;
+}
